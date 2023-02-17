@@ -1,0 +1,27 @@
+{
+  "name": "quadratic-funding",
+  "version": "1.0.0",
+  "description": "This is a Gitcoin project about Quadratic funding",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfa11917676/Quadratic-Funding.git"
+  },
+  "keywords": [
+    "Solidity",
+    "gitcoin"
+  ],
+  "author": "Alfa11917676",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alfa11917676/Quadratic-Funding/issues"
+  },
+  "homepage": "https://github.com/Alfa11917676/Quadratic-Funding#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat": "^2.12.7"
+  }
+}
