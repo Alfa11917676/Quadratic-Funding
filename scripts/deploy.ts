@@ -9,6 +9,12 @@ async function main() {
   const QuadraticFunding = await QuadraticFundingFactory.deploy();
 
   console.log(`Deployed to ${QuadraticFunding.address}`);
+
+  await QuadraticFunding.init(
+    Math.floor(Date.now() / 1000),
+    Math.floor(Date.now() / 1000) + 60 * 5,
+    { value: ethers.utils.parseEther("1") }
+  );
 }
 
 // We recommend this pattern to be able to use async/await everywhere
